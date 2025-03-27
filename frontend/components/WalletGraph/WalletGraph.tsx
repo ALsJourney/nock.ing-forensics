@@ -128,7 +128,7 @@ export default function WalletGraph({walletData, relatedWallets, onNodeClick}: W
                 onNodeClick={handleNodeClick}
                 fitView
             >
-                <Controls/>
+                <Controls className={"dark:text-black"}/>
                 <Background color="#aaa" gap={16}/>
             </ReactFlow>
         </div>

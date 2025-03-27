@@ -69,7 +69,7 @@ export default function ForensicsPage() {
 
     return (
         <div className="p-4 space-y-6 w-full">
-            <h1 className="text-2xl font-bold mb-4">Forensics Analysis</h1>
+            <h1 className="text-2xl font-bold mb-4">Forensic Analysis</h1>
 
             <form onSubmit={handleSubmit} className="space-y-4">
                 <div className="flex gap-2">

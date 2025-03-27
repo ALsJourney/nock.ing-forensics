@@ -1,6 +1,7 @@
 from sqlmodel import SQLModel
 
 class UserBase(SQLModel):
+    id: int | None = None
     username: str
     email: str | None = None
 
